@@ -19,5 +19,20 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
-  
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>bank Releases Nexus Repository</name>
+	      <url>http://16.50.239.48:8081/repository/bank-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Snapshot Nexus Repository</name>
+	      <url>http://16.50.239.48:8081/repository/bank-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
 </project>
